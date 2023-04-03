@@ -9,7 +9,12 @@ body {
    background-color:#FFFFE8;
 }
 
-
+.tombol_contact_us{
+    position:static; left: 10px;bottom: 50px;
+  }
+  .tombol_contact_us img{
+    height: 44px;width: auto;
+  }
 
 h1,
 h2,
