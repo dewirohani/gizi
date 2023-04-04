@@ -9,8 +9,8 @@
                 <div class="container">
                     <div class="row justify-content-start">
                         <div class="col-10 col-lg-8">
-                            <h1 class="display-1 text-white animated slideInDown">Gizi Seimbang</h1>
-                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                            <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
                             {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
                         </div>
                     </div>
@@ -23,8 +23,8 @@
                 <div class="container">
                     <div class="row justify-content-start">
                         <div class="col-10 col-lg-8">
-                            <h1 class="display-1 text-white animated slideInDown">Gizi Seimbang</h1>
-                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                            <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
                             {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
                         </div>
                     </div>
@@ -37,8 +37,8 @@
                 <div class="container">
                     <div class="row justify-content-start">
                         <div class="col-10 col-lg-8">
-                            <h1 class="display-1 text-white animated slideInDown">Gizi Seimbang</h1>
-                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                            <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
                             {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
                             <h3 class="mb-3">Mengkonsumsi aneka makanan pokok</h3>
                             <p class="mb-4">Makanan pokok merupakan makanan yang mengandung prosentase karbohidrat yang tinggi. Selain mengandung karbo.....</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-dark me-3"></i>Read More</a>
+                            <a class="btn" href="detail1"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -179,7 +179,7 @@
         </div>
     </div>
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-        <a href="https://wa.me/6287743331758?text=Hy%20saya%20ingin%20konsultasi%20tentang%20......."  class="tombol_contact_us"><img src="assets/img/icon_wa.png" alt="whatsapp"></a>
+        <a href="https://wa.me/6281235096654?text=Hy%20saya%20ingin%20konsultasi%20tentang%20......."  class="tombol_contact_us"><img src="assets/img/icon_wa.png" alt="whatsapp"></a>
     </div>
 
     <!-- Service End -->

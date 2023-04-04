@@ -8,21 +8,21 @@
 
         <div class="container breadcrumbs my-0 pl-3 pr-3 pt-4 pb-4">
             <p id="breadcrumbs"><span><span><a href="https://www.malasngoding.com/">Home</a></span> » <span
-                        class="breadcrumb_last" aria-current="page">Belajar HTML Part 13 : Membuat Symbol pada
-                        HTML</span></span></p>
+                        class="breadcrumb_last" aria-current="page">Mengkonsumsi Aneka Makanan Pokok</span></span></p>
         </div>
 
         <div class="container" style="height: auto !important;">
             <div class="row" style="height: auto !important;">
                 <div class="col-lg-9 col-xs-12 col-sm-12">
 
-
-                    <!-- Main content -->
+                    @yield('detail')
+                    {{-- <!-- Main content -->
                     <div class="card card-post">
                         <div class="card-body">
+                            
                             <!-- Post -->
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-lg-3 col-sm-12 col-xs-12"
                     style="height: auto !important; min-height: 0px !important;">
@@ -33,45 +33,45 @@
                             <h4 class="my-special-class">Tutorial HTML Dasar</h4>
                             <ul>
                                 <li>
-                                    <a href="https://www.malasngoding.com/belajar-html-dasar-pengertian-html/">#1.
-                                        Pengertian HTML</a>
+                                    <a href="detail1">#1.
+                                        Mengkonsumsi Aneka Makanan Pokok</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.malasngoding.com/belajar-html-memilih-text-editor/">#2.
-                                        Memilih Text Editor</a>
+                                    <a href="detail2">#2.
+                                        Membatasi Diri Untuk Konsumsi Makanan Manis, Asin dan Berlemak</a>
                                 </li>
                                 <li>
                                     <a
-                                        href="https://www.malasngoding.com/belajar-html-mengenal-tag-element-atribut-html/">#3.
-                                        Mengenal Tag, Element dan Atribut</a>
+                                        href="detail3">#3.
+                                        Pertahankan Berat Badan Ideal (BBI) dengan Beraktifitas Fisik</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.malasngoding.com/belajar-html-heading-pada-html/">#4. Mengenal
-                                        Heading HTML</a>
+                                    <a href="detail4">#4. Mengenal
+                                        Konsumsi Lauk Berprotein Tinggi</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.malasngoding.com/belajar-html-format-text-pada-html/">#5.
-                                        Format Text HTML</a>
+                                    <a href="detail5">#5.
+                                        Cuci Tangan Dengan Sabun</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.malasngoding.com/belajar-html-membuat-paragraf-pada-html/">#6.
-                                        Paragraf HTML</a>
+                                    <a href="detail6">#6.
+                                        Bersyukur Atas Keanekaragaman Maknanan</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.malasngoding.com/belajar-html-membuat-tabel-pada-html/">#7.
-                                        Membuat Tabel HTML</a>
+                                    <a href="detail7">#7.
+                                        Senantiasa Membaca Label dalam Kemasan Makanan</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.malasngoding.com/belajar-html-membuat-hyperlink-pada-html/">#8.
-                                        Link / Hyperlink HTML</a>
+                                    <a href="detail8">#8.
+                                        Makan Buah dan Sayur</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.malasngoding.com/belajar-html-membuat-list-pada-html/">#9.
-                                        List HTML</a>
+                                    <a href="detail9">#9.
+                                        Minum Air Putih Secara Cukup</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.malasngoding.com/belajar-html-membuat-format-code-pada-html/">#10.
-                                        Format Code</a>
+                                    <a href="detail10">#10.
+                                        Selalu Sarapan Pagi</a>
                                 </li>
                             </ul>
                         </div>

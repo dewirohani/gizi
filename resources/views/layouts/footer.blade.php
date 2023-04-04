@@ -4,9 +4,9 @@
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-dark mb-4">Address</h3>
-                <p class="mb-2"><i class="fa fa-map-marker-alt text-dark me-3"></i>123 Street, New York, USA</p>
-                <p class="mb-2"><i class="fa fa-phone-alt text-dark me-3"></i>+012 345 67890</p>
-                <p class="mb-2"><i class="fa fa-envelope text-dark me-3"></i>info@example.com</p>
+                <p class="mb-2 text-dark"><i class="fa fa-map-marker-alt text-dark me-3"></i>Politeknik Negeri Jember</p>
+                <p class="mb-2 text-dark"><i class="fa fa-phone-alt text-dark me-3"></i>0812 text-dark35096654</p>
+                <p class="mb-2 text-dark"><i class="fa fa-envelope text-dark me-3"></i>gizipedia@gmail.com</p>
                 {{-- <div class="d-flex pt-2">
                     <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -33,10 +33,10 @@
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-dark mb-4">Follow Us</h3>
                 <div class="d-flex pt-2">
-                    <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square btn-outline-body me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-outline-body btn-dark me-1" href=""><i class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-square btn-outline-body btn-dark me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-outline-body btn-dark me-1" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-square btn-outline-body btn-dark me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
