@@ -1,21 +1,18 @@
 @extends('layouts.app')
+@section('content')
 <nav class="wow fadeIn text-center mt-3" data-wow-delay="0.1s" style="background-color: #FFFFE8;">
         <h1 class="text-primary">Gizi Seimbang, Senyum Berkembang</h1>
 </nav>
-@section('content')
 <div class="page-content page-single fadeIn" style="height: auto !important; background-color:#FFFFE8;">
     <section style="height: auto !important; background-color:#FFFFE8;">
 
-        <div class="container breadcrumbs my-0 pl-3 pr-3 pt-4 pb-4">
-            <p id="breadcrumbs"><span><span><a href="https://www.malasngoding.com/">Home</a></span> » <span
-                        class="breadcrumb_last" aria-current="page">Mengkonsumsi Aneka Makanan Pokok</span></span></p>
-        </div>
+    
 
         <div class="container" style="height: auto !important;">
             <div class="row" style="height: auto !important;">
                 <div class="col-lg-9 col-xs-12 col-sm-12">
 
-                    @yield('detail')
+                    @yield('detail-artikel')
                     {{-- <!-- Main content -->
                     <div class="card card-post">
                         <div class="card-body">

@@ -5,7 +5,7 @@
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-dark mb-4">Address</h3>
                 <p class="mb-2 text-dark"><i class="fa fa-map-marker-alt text-dark me-3"></i>Politeknik Negeri Jember</p>
-                <p class="mb-2 text-dark"><i class="fa fa-phone-alt text-dark me-3"></i>0812 text-dark35096654</p>
+                <p class="mb-2 text-dark"><i class="fa fa-phone-alt text-dark me-3"></i>081235096654</p>
                 <p class="mb-2 text-dark"><i class="fa fa-envelope text-dark me-3"></i>gizipedia@gmail.com</p>
                 {{-- <div class="d-flex pt-2">
                     <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>

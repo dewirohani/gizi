@@ -1,65 +1,78 @@
 @extends('layouts.app')
 @section('content')
-   <!-- Carousel Start -->
-   <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="owl-carousel header-carousel position-relative">
-        <div class="owl-carousel-item position-relative" data-dot="<img src='{{asset('assets/img/carousel-1.jpg')}}'>">
-            <img class="img-fluid" src="{{asset('assets/img/carousel-1.jpg')}}" alt="">
-            <div class="owl-carousel-inner">
-                <div class="container">
-                    <div class="row justify-content-start">
-                        <div class="col-10 col-lg-8">
-                            <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
-                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
-                            {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='{{ asset('assets/img/carousel-1.jpg') }}'>">
+                <img class="img-fluid" src="{{ asset('assets/img/carousel-1.jpg') }}" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
+                                {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="owl-carousel-item position-relative" data-dot="<img src='{{asset('assets/img/carousel-2.jpg')}}'>">
-            <img class="img-fluid" src="{{asset('assets/img/carousel-2.jpg')}}" alt="">
-            <div class="owl-carousel-inner">
-                <div class="container">
-                    <div class="row justify-content-start">
-                        <div class="col-10 col-lg-8">
-                            <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
-                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
-                            {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
+            <div class="owl-carousel-item position-relative"
+                data-dot="<img src='{{ asset('assets/img/carousel-2.jpg') }}'>">
+                <img class="img-fluid" src="{{ asset('assets/img/carousel-2.jpg') }}" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
+                                {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="owl-carousel-item position-relative" data-dot="<img src='{{asset('assets/img/carousel-3.jpg')}}'>">
-            <img class="img-fluid" src="{{asset('assets/img/carousel-3.jpg')}}" alt="">
-            <div class="owl-carousel-inner">
-                <div class="container">
-                    <div class="row justify-content-start">
-                        <div class="col-10 col-lg-8">
-                            <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
-                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
-                            {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
+            <div class="owl-carousel-item position-relative"
+                data-dot="<img src='{{ asset('assets/img/carousel-3.jpg') }}'>">
+                <img class="img-fluid" src="{{ asset('assets/img/carousel-3.jpg') }}" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
+                                {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- About Start -->
+    <!-- About Start -->
     <div class="container-xxl pt-1 pb-2">
         <div class="container">
             <div class="row g-5">
-                <div class="col wow fadeIn" data-wow-delay="0.5s">
+                <div class="col wow fadeInUp" data-wow-delay="0.5s">
                     <h1 class="display-5 mb-4 text-center">Gizi Seimbang, Senyum Berkembang</h1>
-                    <p style="text-align: justify" > &nbsp;&nbsp;&nbsp; Tubuh manusia terdiri dari banyak organ yang membentuk keseimbangan tubuh, organ organ tubuh membutuhkan asupan gizi supaya tetap terjaga dan dapat berfungsi dengan baik. Gizi yang baik adalah gizi yang seimbang yaitu suatu susunan asupan yang harus didapat oleh seseorang dalam setiap harinya, kadar gizi yang dibutuhkan disesuaikan dengan kebutuhan tubuh. Kadar kuantitas dan kualitas sebuah asupan sangat penting dalam menjaga kesehatan tubuh serta tumbuh kembang yang sempurna. Manusia yang tidak menjaga asupan gizinya akan merugi dikemudian hari, hal ini dikarenakan terdapat dampak jangka panjang maupun pendek yang diakibatkan oleh lalainya menjaga asupan gizi dalam tubuh.</p>
-                    <p class="mb-4" style="text-align: justify"> &nbsp;&nbsp;&nbsp; Fungsi gizi yang seimbang adalah membuat badan tetap terjaga kesehatannya, tubuh tidak mudah terinfeksi suatu penyakit sehingga produktifitas pekerjaan yang dilakukan meningkat serta badan terlindung dari penyakit penyakit kronis. Urgensi tentang gizi yang seimbang menyebabkan Kementrian Kesehatan Republik Indonesia mengeluarkan pedoman yang berkaitan dengan cara mewujudkan gizi yang seimbang.</p>
+                    <p style="text-align: justify"> &nbsp;&nbsp;&nbsp; Tubuh manusia terdiri dari banyak organ yang
+                        membentuk keseimbangan tubuh, organ organ tubuh membutuhkan asupan gizi supaya tetap terjaga dan
+                        dapat berfungsi dengan baik. Gizi yang baik adalah gizi yang seimbang yaitu suatu susunan asupan
+                        yang harus didapat oleh seseorang dalam setiap harinya, kadar gizi yang dibutuhkan disesuaikan
+                        dengan kebutuhan tubuh. Kadar kuantitas dan kualitas sebuah asupan sangat penting dalam menjaga
+                        kesehatan tubuh serta tumbuh kembang yang sempurna. Manusia yang tidak menjaga asupan gizinya akan
+                        merugi dikemudian hari, hal ini dikarenakan terdapat dampak jangka panjang maupun pendek yang
+                        diakibatkan oleh lalainya menjaga asupan gizi dalam tubuh.</p>
+                    <p class="mb-4" style="text-align: justify"> &nbsp;&nbsp;&nbsp; Fungsi gizi yang seimbang adalah
+                        membuat badan tetap terjaga kesehatannya, tubuh tidak mudah terinfeksi suatu penyakit sehingga
+                        produktifitas pekerjaan yang dilakukan meningkat serta badan terlindung dari penyakit penyakit
+                        kronis. Urgensi tentang gizi yang seimbang menyebabkan Kementrian Kesehatan Republik Indonesia
+                        mengeluarkan pedoman yang berkaitan dengan cara mewujudkan gizi yang seimbang.</p>
                 </div>
             </div>
         </div>
     </div>
-<!-- About End -->
+    <!-- About End -->
     <!-- Service Start -->
     <div class="container-xxl pb-5">
         <div class="container">
@@ -70,7 +83,8 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
                             <h3 class="mb-3">Mengkonsumsi aneka makanan pokok</h3>
-                            <p class="mb-4">Makanan pokok merupakan makanan yang mengandung prosentase karbohidrat yang tinggi. Selain mengandung karbo.....</p>
+                            <p class="mb-4">Makanan pokok merupakan makanan yang mengandung prosentase karbohidrat yang
+                                tinggi. Selain mengandung karbo.....</p>
                             <a class="btn" href="detail1"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
@@ -80,9 +94,10 @@
                         <img class="bg-img" src="{{ asset('assets/img/service-2.jpg') }}" alt="">
                         <div class="service-text p-5">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
-                            <h3 class="mb-3">Membatasi diri untuk konsumsi makanan manis, asin dan berlemak</h3>
-                            <p class="mb-4">Cita rasa suatu masakan dipengaruhi oleh beberapa hal, diantaranya adalah bumbu yang terkandung dalam masakan. Cita rasa...</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-dark me-3"></i>Read More</a>
+                            <h3 class="mb-3">Membatasi Diri Untuk Konsumsi Makanan Manis, Asin Dan Berlemak</h3>
+                            <p class="mb-4">Cita rasa suatu masakan dipengaruhi oleh beberapa hal, diantaranya adalah
+                                bumbu yang terkandung dalam masakan. Cita rasa...</p>
+                            <a class="btn" href="detail2"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -91,9 +106,11 @@
                         <img class="bg-img" src="{{ asset('assets/img/service-3.jpg') }}" alt="">
                         <div class="service-text p-5">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
-                            <h3 class="mb-3">Pertahankan Berat Badan Ideal (BBI) dengan beraktifitas fisik</h3>
-                            <p class="mb-4">Berat badan yang ideal merupakan aspek penting dalam menjaga kesehatan. Diantara manfaat berat badan ideal adalah badan menjadi bugar dan aktif serta tidak mudah terserang penyakit.....</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-dark me-3"></i>Read More</a>
+                            <h3 class="mb-3">Pertahankan Berat Badan Ideal (BBI) Dengan Beraktifitas Fisik</h3>
+                            <p class="mb-4">Berat badan yang ideal merupakan aspek penting dalam menjaga kesehatan.
+                                Diantara manfaat berat badan ideal adalah badan menjadi bugar dan aktif serta tidak mudah
+                                terserang penyakit.....</p>
+                            <a class="btn" href="detail3"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -102,9 +119,11 @@
                         <img class="bg-img" src="{{ asset('assets/img/service-4.jpg') }}" alt="">
                         <div class="service-text p-5">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
-                            <h3 class="mb-3">Konsumsi lauk berprotein tinggi</h3>
-                            <p class="mb-4">Secara umum protein dibagi menjadi dua, yaitu protein hewani dan protein nabati. Hendaknya dalam mengkonsumsi makanan dibarengi dengan lauk yang berprotein tinggi. Lauk yang mengandung protein tidak.....</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-dark me-3"></i>Read More</a>
+                            <h3 class="mb-3">Konsumsi Lauk Berprotein Tinggi</h3>
+                            <p class="mb-4">Secara umum protein dibagi menjadi dua, yaitu protein hewani dan protein
+                                nabati. Hendaknya dalam mengkonsumsi makanan dibarengi dengan lauk yang berprotein tinggi.
+                                Lauk yang mengandung protein tidak.....</p>
+                            <a class="btn" href="detail4"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -113,9 +132,11 @@
                         <img class="bg-img" src="{{ asset('assets/img/service-5.jpg') }}" alt="">
                         <div class="service-text p-5">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
-                            <h3 class="mb-3">Cuci tangan pakai sabun</h3>
-                            <p class="mb-4">Sebagai orang yang bergerak aktif, kita seringkali bersentuhan dengan benda benda yang terkontaminasi dengan bakteri maupun penyakit. Hendaknya kita sering untuk mencuci tangan dengan sabun sebagai antiseptik.....</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-dark me-3"></i>Read More</a>
+                            <h3 class="mb-3">Cuci Tangan Pakai Sabun</h3>
+                            <p class="mb-4">Sebagai orang yang bergerak aktif, kita seringkali bersentuhan dengan benda
+                                benda yang terkontaminasi dengan bakteri maupun penyakit. Hendaknya kita sering untuk
+                                mencuci tangan dengan sabun sebagai antiseptik.....</p>
+                            <a class="btn" href="detail5"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -124,9 +145,11 @@
                         <img class="bg-img" src="{{ asset('assets/img/service-6.jpg') }}" alt="">
                         <div class="service-text p-5">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
-                            <h3 class="mb-3">Bersyukur atas keanekaragaman makanan</h3>
-                            <p class="mb-4">Aneka ragam makanan yang tersedia hendaknya dinikmati dalam porsi yang cukup, jika tubuh diberi asupan yang beragam maka semakin beragam nutrisi yang masuk kedalam tubuh sehingga asupan tubuh.....</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-dark me-3"></i>Read More</a>
+                            <h3 class="mb-3">Bersyukur Atas Keanekaragaman Makanan</h3>
+                            <p class="mb-4">Aneka ragam makanan yang tersedia hendaknya dinikmati dalam porsi yang cukup,
+                                jika tubuh diberi asupan yang beragam maka semakin beragam nutrisi yang masuk kedalam tubuh
+                                sehingga asupan tubuh.....</p>
+                            <a class="btn" href="detail6"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -135,9 +158,11 @@
                         <img class="bg-img" src="{{ asset('assets/img/service-1.jpg') }}" alt="">
                         <div class="service-text p-5">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
-                            <h3 class="mb-3">Senantiasa membaca label dalam kemasan makanan</h3>
-                            <p class="mb-4">Saat ini banyak makanan siap saji yang dijual diberbagai toko, baik toko dalam skala kecil maupun besar. Setiap makanan siap saji yang terkemas mengandung nilai nutrisi yang terkandung didalamnya.....</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-dark me-3"></i>Read More</a>
+                            <h3 class="mb-3">Senantiasa Membaca Label Dalam Kemasan Makanan</h3>
+                            <p class="mb-4">Saat ini banyak makanan siap saji yang dijual diberbagai toko, baik toko
+                                dalam skala kecil maupun besar. Setiap makanan siap saji yang terkemas mengandung nilai
+                                nutrisi yang terkandung didalamnya.....</p>
+                            <a class="btn" href="detail7"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -146,9 +171,11 @@
                         <img class="bg-img" src="{{ asset('assets/img/service-2.jpg') }}" alt="">
                         <div class="service-text p-5">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
-                            <h3 class="mb-3">Makan buah dan sayur</h3>
-                            <p class="mb-4">Sayur dan buah banyak mengandung vitamin dan mineral yang dibutuhkan oleh tubuh. Sangat baik jika kita rutin memberi asupan tubuh berupa sayur dan buah setiap harinya. Berbagai kajian menunjukkan bahwa.....</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-dark me-3"></i>Read More</a>
+                            <h3 class="mb-3">Makan Buah Dan Sayur</h3>
+                            <p class="mb-4">Sayur dan buah banyak mengandung vitamin dan mineral yang dibutuhkan oleh
+                                tubuh. Sangat baik jika kita rutin memberi asupan tubuh berupa sayur dan buah setiap
+                                harinya. Berbagai kajian menunjukkan bahwa.....</p>
+                            <a class="btn" href="detail8"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -157,9 +184,11 @@
                         <img class="bg-img" src="{{ asset('assets/img/service-3.jpg') }}" alt="">
                         <div class="service-text p-5">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
-                            <h3 class="mb-3">Minum air putih secara cukup</h3>
-                            <p class="mb-4">Air putih adalah cairan yang sanagt dibutuhkan oleh tubuh. Air putih membantu memberikan energi untuk otot dan menjaga sendi tetap lentur. Air putih juga memiliki fungsi dalam sistem pencernaan dan penyerapan makanan serta.....</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-dark me-3"></i>Read More</a>
+                            <h3 class="mb-3">Minum Air Putih Secara Cukup</h3>
+                            <p class="mb-4">Air putih adalah cairan yang sanagt dibutuhkan oleh tubuh. Air putih membantu
+                                memberikan energi untuk otot dan menjaga sendi tetap lentur. Air putih juga memiliki fungsi
+                                dalam sistem pencernaan dan penyerapan makanan serta.....</p>
+                            <a class="btn" href="detail9"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -168,9 +197,11 @@
                         <img class="bg-img" src="{{ asset('assets/img/service-1.jpg') }}" alt="">
                         <div class="service-text p-5">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
-                            <h3 class="mb-3">Selalu sarapan pagi</h3>
-                            <p class="mb-4">Sarapan pagi merupakan aktifitas yang sangat bermanfaat bagi tubuh. Sarapan adalah kegiatan makan dan minum yang dilakukan antara bangun pagi sampai jam 9 untuk memenuhi sebagian kebutuhan gizi harian.....</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-dark me-3"></i>Read More</a>
+                            <h3 class="mb-3">Selalu Sarapan Pagi</h3>
+                            <p class="mb-4">Sarapan pagi merupakan aktifitas yang sangat bermanfaat bagi tubuh. Sarapan
+                                adalah kegiatan makan dan minum yang dilakukan antara bangun pagi sampai jam 9 untuk
+                                memenuhi sebagian kebutuhan gizi harian.....</p>
+                            <a class="btn" href="detail10"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -178,8 +209,22 @@
             </div>
         </div>
     </div>
+    <div class="container-xxl pt-1 pb-2">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col wow fadeInUp" data-wow-delay="0.5s">
+                    <p style="text-align: justify"> &nbsp;&nbsp;&nbsp; Sepuluh pedoman gizi seimbang diatas apabila
+                        dijalankan maka hal tersebut adalah sebagai bentuk usaha untuk menjaga kesehatan tubuh. Jika tubuh
+                        dalam keadaan sehat maka aktifitas sehari hari aka dijalankan dengan penuh kemudahan. Marilah
+                        bersama sama untuk menjaga asupan gizi kita dan keluarga secara seimbang agar senyum tetap
+                        berkembang kini dan nanti. </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-        <a href="https://wa.me/6281235096654?text=Hy%20saya%20ingin%20konsultasi%20tentang%20......."  class="tombol_contact_us"><img src="assets/img/icon_wa.png" alt="whatsapp"></a>
+        <a href="https://wa.me/6281235096654?text=Hy%20saya%20ingin%20konsultasi%20tentang%20......."
+            class="tombol_contact_us"><img src="assets/img/icon_wa.png" alt="whatsapp"></a>
     </div>
 
     <!-- Service End -->
