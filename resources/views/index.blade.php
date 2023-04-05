@@ -53,7 +53,7 @@
     <div class="container-xxl pt-1 pb-2">
         <div class="container">
             <div class="row g-5">
-                <div class="col wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <h1 class="display-5 mb-4 text-center">Gizi Seimbang, Senyum Berkembang</h1>
                     <p style="text-align: justify"> &nbsp;&nbsp;&nbsp; Tubuh manusia terdiri dari banyak organ yang
                         membentuk keseimbangan tubuh, organ organ tubuh membutuhkan asupan gizi supaya tetap terjaga dan
@@ -76,143 +76,160 @@
     <!-- Service Start -->
     <div class="container-xxl pb-5">
         <div class="container">
-            <div class="row g-2">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
-                        <img class="bg-img" src="{{ asset('assets/img/service-1.jpg') }}" alt="">
-                        <div class="service-text p-5">
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                    <a href="detail1" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
+                        <div class="col text-center service-text p-5 " style="text-align: center">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                        </div>
+                        <div class="service-text p-5">
                             <h3 class="mb-3">Mengkonsumsi aneka makanan pokok</h3>
                             <p class="mb-4">Makanan pokok merupakan makanan yang mengandung prosentase karbohidrat yang
                                 tinggi. Selain mengandung karbo.....</p>
-                            <a class="btn" href="detail1"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
-                        <img class="bg-img" src="{{ asset('assets/img/service-2.jpg') }}" alt="">
-                        <div class="service-text p-5">
+            </div>
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                    <a href="detail2" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
+                        <div class="col text-center service-text p-5 " style="text-align: center">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                        </div>
+                        <div class="service-text p-5">
                             <h3 class="mb-3">Membatasi Diri Untuk Konsumsi Makanan Manis, Asin Dan Berlemak</h3>
                             <p class="mb-4">Cita rasa suatu masakan dipengaruhi oleh beberapa hal, diantaranya adalah
                                 bumbu yang terkandung dalam masakan. Cita rasa...</p>
-                            <a class="btn" href="detail2"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
-                        <img class="bg-img" src="{{ asset('assets/img/service-3.jpg') }}" alt="">
-                        <div class="service-text p-5">
+            </div>
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                    <a href="detail3" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
+                        <div class="col text-center service-text p-5 " style="text-align: center">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                        </div>
+                        <div class="service-text p-5">
                             <h3 class="mb-3">Pertahankan Berat Badan Ideal (BBI) Dengan Beraktifitas Fisik</h3>
                             <p class="mb-4">Berat badan yang ideal merupakan aspek penting dalam menjaga kesehatan.
                                 Diantara manfaat berat badan ideal adalah badan menjadi bugar dan aktif serta tidak mudah
                                 terserang penyakit.....</p>
-                            <a class="btn" href="detail3"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
-                        <img class="bg-img" src="{{ asset('assets/img/service-4.jpg') }}" alt="">
-                        <div class="service-text p-5">
+            </div>
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                    <a href="detail4" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
+                        <div class="col text-center service-text p-5 " style="text-align: center">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                        </div>
+                        <div class="service-text p-5">
                             <h3 class="mb-3">Konsumsi Lauk Berprotein Tinggi</h3>
                             <p class="mb-4">Secara umum protein dibagi menjadi dua, yaitu protein hewani dan protein
                                 nabati. Hendaknya dalam mengkonsumsi makanan dibarengi dengan lauk yang berprotein tinggi.
                                 Lauk yang mengandung protein tidak.....</p>
-                            <a class="btn" href="detail4"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
-                        <img class="bg-img" src="{{ asset('assets/img/service-5.jpg') }}" alt="">
-                        <div class="service-text p-5">
+            </div>
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                    <a href="detail5" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
+                        <div class="col text-center service-text p-5 " style="text-align: center">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                        </div>
+                        <div class="service-text p-5">
                             <h3 class="mb-3">Cuci Tangan Pakai Sabun</h3>
                             <p class="mb-4">Sebagai orang yang bergerak aktif, kita seringkali bersentuhan dengan benda
                                 benda yang terkontaminasi dengan bakteri maupun penyakit. Hendaknya kita sering untuk
                                 mencuci tangan dengan sabun sebagai antiseptik.....</p>
-                            <a class="btn" href="detail5"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
-                        <img class="bg-img" src="{{ asset('assets/img/service-6.jpg') }}" alt="">
-                        <div class="service-text p-5">
+            </div>
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                    <a href="detail6" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
+                        <div class="col text-center service-text p-5 " style="text-align: center">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                        </div>
+                        <div class="service-text p-5">
                             <h3 class="mb-3">Bersyukur Atas Keanekaragaman Makanan</h3>
                             <p class="mb-4">Aneka ragam makanan yang tersedia hendaknya dinikmati dalam porsi yang cukup,
                                 jika tubuh diberi asupan yang beragam maka semakin beragam nutrisi yang masuk kedalam tubuh
                                 sehingga asupan tubuh.....</p>
-                            <a class="btn" href="detail6"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
-                        <img class="bg-img" src="{{ asset('assets/img/service-1.jpg') }}" alt="">
-                        <div class="service-text p-5">
+            </div>
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                    <a href="detail7" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
+                        <div class="col text-center service-text p-5 " style="text-align: center">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                        </div>
+                        <div class="service-text p-5">
                             <h3 class="mb-3">Senantiasa Membaca Label Dalam Kemasan Makanan</h3>
                             <p class="mb-4">Saat ini banyak makanan siap saji yang dijual diberbagai toko, baik toko
                                 dalam skala kecil maupun besar. Setiap makanan siap saji yang terkemas mengandung nilai
                                 nutrisi yang terkandung didalamnya.....</p>
-                            <a class="btn" href="detail7"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
-                        <img class="bg-img" src="{{ asset('assets/img/service-2.jpg') }}" alt="">
-                        <div class="service-text p-5">
+            </div>
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                    <a href="detail8" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
+                        <div class="col text-center service-text p-5 " style="text-align: center">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                        </div>
+                        <div class="service-text p-5">
                             <h3 class="mb-3">Makan Buah Dan Sayur</h3>
                             <p class="mb-4">Sayur dan buah banyak mengandung vitamin dan mineral yang dibutuhkan oleh
                                 tubuh. Sangat baik jika kita rutin memberi asupan tubuh berupa sayur dan buah setiap
                                 harinya. Berbagai kajian menunjukkan bahwa.....</p>
-                            <a class="btn" href="detail8"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
-                        <img class="bg-img" src="{{ asset('assets/img/service-3.jpg') }}" alt="">
-                        <div class="service-text p-5">
+            </div>
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                    <a href="detail9" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
+                        <div class="col text-center service-text p-5 " style="text-align: center">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                        </div>
+                        <div class="service-text p-5">
                             <h3 class="mb-3">Minum Air Putih Secara Cukup</h3>
                             <p class="mb-4">Air putih adalah cairan yang sanagt dibutuhkan oleh tubuh. Air putih membantu
                                 memberikan energi untuk otot dan menjaga sendi tetap lentur. Air putih juga memiliki fungsi
                                 dalam sistem pencernaan dan penyerapan makanan serta.....</p>
-                            <a class="btn" href="detail9"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
-                        <img class="bg-img" src="{{ asset('assets/img/service-1.jpg') }}" alt="">
-                        <div class="service-text p-5">
+            </div>
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                    <a href="detail10" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
+                        <div class="col text-center service-text p-5 " style="text-align: center">
                             <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                        </div>
+                        <div class="service-text p-5">
                             <h3 class="mb-3">Selalu Sarapan Pagi</h3>
                             <p class="mb-4">Sarapan pagi merupakan aktifitas yang sangat bermanfaat bagi tubuh. Sarapan
                                 adalah kegiatan makan dan minum yang dilakukan antara bangun pagi sampai jam 9 untuk
                                 memenuhi sebagian kebutuhan gizi harian.....</p>
-                            <a class="btn" href="detail10"><i class="fa fa-plus text-dark me-3"></i>Read More</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
-
             </div>
         </div>
     </div>
     <div class="container-xxl pt-1 pb-2">
         <div class="container">
             <div class="row g-5">
-                <div class="col wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <p style="text-align: justify"> &nbsp;&nbsp;&nbsp; Sepuluh pedoman gizi seimbang diatas apabila
                         dijalankan maka hal tersebut adalah sebagai bentuk usaha untuk menjaga kesehatan tubuh. Jika tubuh
                         dalam keadaan sehat maka aktifitas sehari hari aka dijalankan dengan penuh kemudahan. Marilah
@@ -220,11 +237,12 @@
                         berkembang kini dan nanti. </p>
                 </div>
             </div>
+            <br>
+            <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
+                <a href="https://wa.me/6281235096654?text=Hy%20saya%20ingin%20konsultasi%20tentang%20......."
+                    class="tombol_contact_us"><img src="assets/img/icon_wa.png" alt="whatsapp"></a>
+            </div>
         </div>
-    </div>
-    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-        <a href="https://wa.me/6281235096654?text=Hy%20saya%20ingin%20konsultasi%20tentang%20......."
-            class="tombol_contact_us"><img src="assets/img/icon_wa.png" alt="whatsapp"></a>
     </div>
 
     <!-- Service End -->
@@ -236,7 +254,7 @@
     <div class="container-xxl py-5">
         <div class="container pt-5">
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <div class="fact-item text-center bg-light h-100 p-5 pt-0">
                         <div class="fact-icon">
                             <img src="img/icons/icon-2.png" alt="Icon">
@@ -245,7 +263,7 @@
                         <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <div class="fact-item text-center bg-light h-100 p-5 pt-0">
                         <div class="fact-icon">
                             <img src="img/icons/icon-3.png" alt="Icon">
@@ -254,7 +272,7 @@
                         <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <div class="fact-item text-center bg-light h-100 p-5 pt-0">
                         <div class="fact-icon">
                             <img src="img/icons/icon-4.png" alt="Icon">
@@ -277,7 +295,7 @@
                         <img class="img-fluid" src="img/about-2.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <h4 class="section-title">About Us</h4>
                     <h1 class="display-5 mb-4">A Creative Architecture Agency For Your Dream Home</h1>
                     <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
@@ -302,7 +320,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <h4 class="section-title">Why Choose Us!</h4>
                     <h1 class="display-5 mb-4">Why You Should Trust Us? Learn More About Us!</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
@@ -336,7 +354,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <div class="feature-img">
                         <img class="img-fluid" src="img/about-2.jpg" alt="">
                         <img class="img-fluid" src="img/about-1.jpg" alt="">
@@ -349,11 +367,11 @@
     <!-- Project Start -->
     <div class="container-xxl project py-5">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <div class="text-center mx-auto mb-5 wow fadeInUp pb-3" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Our Projects</h4>
                 <h1 class="display-5 mb-4">Visit Our Latest Projects And Our Innovative Works</h1>
             </div>
-            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4 wow fadeInUp pb-3" data-wow-delay="0.1s">
                 <div class="col-lg-4">
                     <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
@@ -374,13 +392,13 @@
                     <div class="tab-content w-100">
                         <div class="tab-pane fade show active" id="tab-pane-1">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-12" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/project-1.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <h1 class="mb-3">25 Years Of Experience In Architecture Industry</h1>
                                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
@@ -392,13 +410,13 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-12" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/project-2.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <h1 class="mb-3">25 Years Of Experience In Architecture Industry</h1>
                                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
@@ -410,13 +428,13 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-3">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-12" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/project-3.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <h1 class="mb-3">25 Years Of Experience In Architecture Industry</h1>
                                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
@@ -428,13 +446,13 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-4">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-12" style="min-height: 350px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/project-4.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <h1 class="mb-3">25 Years Of Experience In Architecture Industry</h1>
                                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
@@ -453,12 +471,12 @@
     <!-- Team Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <div class="text-center mx-auto mb-5 wow fadeInUp pb-3" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Team Members</h4>
                 <h1 class="display-5 mb-4">We Are Creative Architecture Team For Your Dream Home</h1>
             </div>
             <div class="row g-0 team-items">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
                             <img class="img-fluid" src="img/team-1.jpg" alt="">
@@ -474,7 +492,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
                             <img class="img-fluid" src="img/team-2.jpg" alt="">
@@ -490,7 +508,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
                             <img class="img-fluid" src="img/team-3.jpg" alt="">
@@ -506,7 +524,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
                             <img class="img-fluid" src="img/team-4.jpg" alt="">
@@ -530,7 +548,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <h4 class="section-title">Appointment</h4>
                     <h1 class="display-5 mb-4">Make An Appointment To Start Your Dream Project</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
@@ -559,7 +577,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <div class="row g-3">
                         <div class="col-12 col-sm-6">
                             <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
@@ -607,11 +625,11 @@
     <!-- Testimonial Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <div class="text-center mx-auto mb-5 wow fadeInUp pb-3" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Testimonial</h4>
                 <h1 class="display-5 mb-4">Thousands Of Customers Who Trust Us And Our Services</h1>
             </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+            <div class="owl-carousel testimonial-carousel wow fadeInUp pb-3" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>">
                     <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
                     <h3>Client Name</h3>

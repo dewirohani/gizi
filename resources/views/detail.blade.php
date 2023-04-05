@@ -27,7 +27,7 @@
 
                         <!-- list tutorial per kategori -->
                         <div class="sidebar-content">
-                            <h4 class="my-special-class">Tutorial HTML Dasar</h4>
+                            <h4 class="my-special-class">List Hidup Dengan Gizi Seimbang </h4>
                             <ul>
                                 <li>
                                     <a href="detail1">#1.
