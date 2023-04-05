@@ -4,7 +4,7 @@
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative" data-dot="<img src='{{ asset('assets/img/carousel-1.jpg') }}'>">
-                <img class="img-fluid" src="{{ asset('assets/img/carousel-1.jpg') }}" alt="">
+                <img class="img-fluid" src="{{ asset('assets/img/carousel-1.jpg') }}" alt="">        
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -76,6 +76,7 @@
     <!-- Service Start -->
     <div class="container-xxl pb-5">
         <div class="container">
+            <p class="mb-3"><em>NB: Klik tombol untuk melihat informasi lengkapnya.</em></p>
             <div class="row">
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail1" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
