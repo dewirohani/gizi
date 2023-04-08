@@ -25,7 +25,8 @@
                                 konsentrasi. Seseorang yang sering melewatkan sarapan pagi mempunyuai resiko tekanan darah
                                 tinggi dan naiknya kadar kolestrol tubuh.
                             </p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TnobzLyBv5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            {{-- <iframe width="560" height="315" src="https://www.youtube.com/embed/TnobzLyBv5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> --}}
+                            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/TnobzLyBv5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

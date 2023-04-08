@@ -3,14 +3,30 @@
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='{{ asset('assets/img/carousel-1.jpg') }}'>">
-                <img class="img-fluid" src="{{ asset('assets/img/carousel-1.jpg') }}" alt="">        
+            <div class="owl-carousel-item position-relative" data-dot="<img src='{{ asset('assets/img/pendukung-12.png') }}'>">
+                <video id="slider" autoplay muted loop>
+                    <source src="{{asset('assets/img/Baca Informasi Nilai Gizi.mp4')}}" type="video/mp4">
+                </video>
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
+                                {{-- <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p> --}}
+                                {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='{{ asset('assets/img/pendukung-12.png') }}'>">
+                <img class="img-fluid" src="{{ asset('assets/img/pendukung-12.png') }}" alt="">        
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                {{-- <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p> --}}
                                 {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
                             </div>
                         </div>
@@ -18,29 +34,28 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative"
-                data-dot="<img src='{{ asset('assets/img/carousel-2.jpg') }}'>">
-                <img class="img-fluid" src="{{ asset('assets/img/carousel-2.jpg') }}" alt="">
+                data-dot="<img src='{{ asset('assets/img/pendukung-13.png') }}'>">
+                <img class="img-fluid" src="{{ asset('assets/img/pendukung-13.png') }}" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
+                                {{-- <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p> --}}
                                 {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item position-relative"
-                data-dot="<img src='{{ asset('assets/img/carousel-3.jpg') }}'>">
-                <img class="img-fluid" src="{{ asset('assets/img/carousel-3.jpg') }}" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='{{ asset('assets/img/pendukung-15.png') }}'>">
+                <img class="img-fluid" src="{{ asset('assets/img/pendukung-15.png') }}" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p>
+                                {{-- <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p> --}}
                                 {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
                             </div>
                         </div>
@@ -76,16 +91,16 @@
     <!-- Service Start -->
     <div class="container-xxl pb-5">
         <div class="container">
-            <p class="mb-3"><em>NB: Klik tombol untuk melihat informasi lengkapnya.</em></p>
+            <p class="mb-3"><em>NB: Klik untuk melihat informasi lengkapnya.</em></p>
             <div class="row">
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail1" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
                         <div class="col text-center service-text p-5 " style="text-align: center">
-                            <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                            <img class="mb-4" src="{{ asset('assets/img/1.png') }}" alt="Icon" style="width:150px; height:150px">
                         </div>
                         <div class="service-text p-5">
                             <h3 class="mb-3">Mengkonsumsi aneka makanan pokok</h3>
-                            <p class="mb-4">Makanan pokok merupakan makanan yang mengandung prosentase karbohidrat yang
+                            <p class="mb-4">Makanan pokok merupakan makanan yang mengandung presentase karbohidrat yang
                                 tinggi. Selain mengandung karbo.....</p>
                         </div>
                     </a>
@@ -95,7 +110,7 @@
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail2" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
                         <div class="col text-center service-text p-5 " style="text-align: center">
-                            <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                            <img class="mb-4" src="{{ asset('assets/img/2.png') }}" alt="Icon" style="width:150px; height:150px">
                         </div>
                         <div class="service-text p-5">
                             <h3 class="mb-3">Membatasi Diri Untuk Konsumsi Makanan Manis, Asin Dan Berlemak</h3>
@@ -109,7 +124,7 @@
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail3" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
                         <div class="col text-center service-text p-5 " style="text-align: center">
-                            <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                            <img class="mb-4" src="{{ asset('assets/img/3.png') }}" alt="Icon" style="width:150px; height:150px">
                         </div>
                         <div class="service-text p-5">
                             <h3 class="mb-3">Pertahankan Berat Badan Ideal (BBI) Dengan Beraktifitas Fisik</h3>
@@ -124,7 +139,7 @@
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail4" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
                         <div class="col text-center service-text p-5 " style="text-align: center">
-                            <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                            <img class="mb-4" src="{{ asset('assets/img/4.png') }}" alt="Icon" style="width:150px; height:150px">
                         </div>
                         <div class="service-text p-5">
                             <h3 class="mb-3">Konsumsi Lauk Berprotein Tinggi</h3>
@@ -139,7 +154,7 @@
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail5" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
                         <div class="col text-center service-text p-5 " style="text-align: center">
-                            <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                            <img class="mb-4" src="{{ asset('assets/img/5.png') }}" alt="Icon" style="width:150px; height:150px">
                         </div>
                         <div class="service-text p-5">
                             <h3 class="mb-3">Cuci Tangan Pakai Sabun</h3>
@@ -154,7 +169,7 @@
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail6" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
                         <div class="col text-center service-text p-5 " style="text-align: center">
-                            <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                            <img class="mb-4" src="{{ asset('assets/img/6.png') }}" alt="Icon" style="width:150px; height:150px">
                         </div>
                         <div class="service-text p-5">
                             <h3 class="mb-3">Bersyukur Atas Keanekaragaman Makanan</h3>
@@ -169,7 +184,7 @@
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail7" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
                         <div class="col text-center service-text p-5 " style="text-align: center">
-                            <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                            <img class="mb-4" src="{{ asset('assets/img/7.png') }}" alt="Icon" style="width:150px; height:150px">
                         </div>
                         <div class="service-text p-5">
                             <h3 class="mb-3">Senantiasa Membaca Label Dalam Kemasan Makanan</h3>
@@ -184,7 +199,7 @@
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail8" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
                         <div class="col text-center service-text p-5 " style="text-align: center">
-                            <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                            <img class="mb-4" src="{{ asset('assets/img/8.png') }}" alt="Icon" style="width:150px; height:150px">
                         </div>
                         <div class="service-text p-5">
                             <h3 class="mb-3">Makan Buah Dan Sayur</h3>
@@ -199,7 +214,7 @@
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail9" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
                         <div class="col text-center service-text p-5 " style="text-align: center">
-                            <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                            <img class="mb-4" src="{{ asset('assets/img/9.png') }}" alt="Icon" style="width:150px; height:150px">
                         </div>
                         <div class="service-text p-5">
                             <h3 class="mb-3">Minum Air Putih Secara Cukup</h3>
@@ -214,7 +229,7 @@
                 <div class="col-md-12 wow fadeInUp pb-3" data-wow-delay="0.1s">
                     <a href="detail10" class="service-item d-flex position-relative text-center h-100" style="background-color:#AACB73">
                         <div class="col text-center service-text p-5 " style="text-align: center">
-                            <img class="mb-4" src="{{ asset('assets/img/icons/icon.jpeg') }}" alt="Icon">
+                            <img class="mb-4" src="{{ asset('assets/img/10.png') }}" alt="Icon" style="width:150px; height:150px">
                         </div>
                         <div class="service-text p-5">
                             <h3 class="mb-3">Selalu Sarapan Pagi</h3>

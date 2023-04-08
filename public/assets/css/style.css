@@ -9,6 +9,11 @@ body {
    background-color:#FFFFE8;
 }
 
+.slider{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
 .tombol_contact_us{
     position:static; left: 10px;bottom: 50px;
   }

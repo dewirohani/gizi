@@ -6,7 +6,7 @@
                 <h3 class="text-dark mb-4">Address</h3>
                 <p class="mb-2 text-dark"><i class="fa fa-map-marker-alt text-dark me-3"></i>Politeknik Negeri Jember</p>
                 <p class="mb-2 text-dark"><i class="fa fa-phone-alt text-dark me-3"></i>081235096654</p>
-                <p class="mb-2 text-dark"><i class="fa fa-envelope text-dark me-3"></i>gizipedia@gmail.com</p>
+                <p class="mb-2 text-dark"><i class="fa fa-envelope text-dark me-3"></i>ewildani01@gmail.com</p>
                 {{-- <div class="d-flex pt-2">
                     <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -33,10 +33,10 @@
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-dark mb-4">Follow Us</h3>
                 <div class="d-flex pt-2">
-                    <a class="btn btn-square btn-outline-body btn-dark me-1" href=""><i class="fab fa-whatsapp"></i></a>
-                    <a class="btn btn-square btn-outline-body btn-dark me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-outline-body btn-dark me-1" href=""><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square btn-outline-body btn-dark me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-outline-body btn-dark me-1" href="https://wa.me/6281235096654?text=Hy%20saya%20ingin%20konsultasi%20tentang%20......."><i class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-square btn-outline-body btn-dark me-1" href="https://instagram.com/ekakwil?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square btn-outline-body btn-dark me-1" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-square btn-outline-body btn-dark me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>

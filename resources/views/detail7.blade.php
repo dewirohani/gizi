@@ -21,7 +21,8 @@
                                 terkandung kedalam makanan sebelum membeli dan memilih makanan yang sesuai dengan nutrisi
                                 yang dibutuhkan oleh tubuh.
                             </p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/nqvo5Kdh6jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/nqvo5Kdh6jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            {{-- <iframe width="560" height="315" src="https://www.youtube.com/embed/nqvo5Kdh6jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> --}}
                         </div>
                     </div>
                 </div>
