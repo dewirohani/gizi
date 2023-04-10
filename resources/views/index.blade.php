@@ -1,66 +1,52 @@
 @extends('layouts.app')
 @section('content')
+<!-- Carousel wrapper -->
+{{-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video class="d-block w-100" id="slider" autoplay muted loop>
+            <source src="{{asset('assets/img/Baca Informasi Nilai Gizi.mp4')}}" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{{ asset('assets/img/pendukung-12.png') }}" alt="" >        
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{{ asset('assets/img/pendukung-13.png') }}" alt="">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div> --}}
+  <!-- Carousel wrapper -->
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='{{ asset('assets/img/pendukung-12.png') }}'>">
-                <video id="slider" autoplay muted loop>
+            {{-- <div class="owl-carousel-item" data-dot="<img src='{{ asset('assets/img/pendukung-12.png') }}'>">
+                <video style="width: 100%" autoplay muted loop>
                     <source src="{{asset('assets/img/Baca Informasi Nilai Gizi.mp4')}}" type="video/mp4">
                 </video>
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                {{-- <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p> --}}
-                                {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            </div> --}}
+            <div class="owl-carousel-item" data-dot="<img src='{{ asset('assets/img/pendukung-12.png') }}'>">
+                <img style="object-fit: contain" class="img-fluid" src="{{ asset('assets/img/pendukung-12.png') }}" alt="" >        
             </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='{{ asset('assets/img/pendukung-12.png') }}'>">
-                <img class="img-fluid" src="{{ asset('assets/img/pendukung-12.png') }}" alt="">        
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                {{-- <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p> --}}
-                                {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative"
+            <div class="owl-carousel-item"
                 data-dot="<img src='{{ asset('assets/img/pendukung-13.png') }}'>">
-                <img class="img-fluid" src="{{ asset('assets/img/pendukung-13.png') }}" alt="">
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                {{-- <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p> --}}
-                                {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <img style="object-fit: contain" class="img-fluid" src="{{ asset('assets/img/pendukung-13.png') }}" alt="">
             </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='{{ asset('assets/img/pendukung-15.png') }}'>">
-                <img class="img-fluid" src="{{ asset('assets/img/pendukung-15.png') }}" alt="">
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                {{-- <h1 class="display-1 text-white animated slideInDown">Gizipedia</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Gizi Seimbang, Senyum Berkembang</p> --}}
-                                {{-- <a href="" class="btn btn-light py-3 px-5 animated slideInLeft">Read More</a> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="owl-carousel-item" data-dot="<img src='{{ asset('assets/img/pendukung-15.png') }}'>">
+                <img style="object-fit: contain" class="img-fluid" src="{{ asset('assets/img/pendukung-15.png') }}" alt="">
             </div>
         </div>
     </div>
